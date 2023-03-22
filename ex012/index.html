@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando video</title>
+</head>
+<body>
+    <h1>Inserindo vídeos:</h1>
+    <p>Este video esta rodando em nosso servidor</p>
+    <video src="./midia/video-modificado.mp4" width="600" controls poster="./midia/capa.jpg"></video>
+    
+    <!-- Aqui vc pode colocar vários formatos, um vai dar play: -->
+    <p>Colocando vários videos: </p>
+    <video controls width="300" poster="./midia/capa.jpg" autoplay loop>
+        <source src="./midia/video-modificado.mp4" type="/video/mp4">
+        <!-- Aqui vc coloca outros sourcers para ver se dá certo ... -->
+        <p>Seu navegador não tem compatibilidades com videos</p>
+    </video>
+    <h1>Inserindo videos do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Rsj_z43oNRk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <h1>Video do vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/521673008?h=7d39ce9b67" width="640" height="1138" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
