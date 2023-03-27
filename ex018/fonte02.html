@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes importadas da internet</title>
+    <style>
+        @font-face{
+            /* Aqui vc pode colocar mais de um formato */
+            font-family:'love' ;/* Aqui vc dá um nome a fonte que importou */
+            src:url('fonts/love larry ttf.ttf') format('openType'), url('fonts/love larry ttf.ttf') format('trueType');
+            font-weight: normal;
+            font-style: normal;
+
+            /* Tipos de Format:
+                -openType p/ otf
+                -trueType p/ ttf
+                -embedded-OpenType
+                -trueTypeAAT: Apple Advanced Typografy
+                -svg
+                */
+        }
+        /* Baixou a fonte e quer usar no site, usar font face */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            font-family: 'love', Times, serif;
+            font-weight: normal; /* Diz que a fonte funciona bem no NORMAL */
+        }
+    </style>
+</head>
+<body>
+    <h1>Titulo</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem iure odio facilis nam reiciendis placeat autem, soluta corporis veritatis aut labore eos ipsa commodi, esse est ullam natus modi eaque.</p>
+</body>
+</html>

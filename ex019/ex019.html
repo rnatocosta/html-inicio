@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores Personalizados</title>
+    <style>
+        /* Seleciona a fonte para rodar no seu site */
+        /* Dependendo do navegador vc pode colocar duas fontes */
+        /* Pois pode ser que rode ou não */
+        @font-face {
+            font-family:'love'; /* <- Dê um nome */
+            src: url('fonts/love larry ttf.ttf') format(truetype); /* Aqui vc coloca todas */
+            font-weight: normal;    
+            font-style: normal;
+            /* Tipos de formato:
+                - OpenType(p/ otf)
+                - TrueType(p/ttf)
+                - embedded-opentype
+                - truetype-aat(Apple Advanced Typrography)
+                - svg  */
+        }
+        body{
+            font-family: 'Courier New', Courier, monospace;
+        }
+        h1{
+            font-family: 'love', Times, serif;
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Titulo</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non natus magnam eos facere, possimus voluptatum deserunt? Ab consequuntur laboriosam modi illum? Quasi, corrupti. Dolor, molestias. Earum deserunt reprehenderit blanditiis. Quia.</p>
+</body>
+</html>

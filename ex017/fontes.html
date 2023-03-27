@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes </title>
+    <style>
+        
+        /* Existem medidas absolutas: cm, mm, in, px, pt, pc, usa-se 'px' tipo como se fosse no Word
+        Medidas relativas a fonte: em, ex, rm, vw, vh, %, basicamente usa-se 'em'  
+        Geralmente as unidades: 16px = 1em, levar em consideração diferentes dispositivos*/
+        /* Fonte: 
+                  -Weight: peso 
+                  -width: largura
+                  -height: altura
+                  
+                  -lighter
+                  -normal
+                  -bold
+                  -bolder
+                  
+                  -variação 100 até 900*/
+
+                  
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 1em; /* quase = a 16px */
+            font-weight: normal; /* estilo */
+            font-style: normal; /* variação do tipo da fonte */
+            text-decoration: underline; /* sublinha.. */ 
+        }   
+        
+        h1{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            /* ShortHand é uma declaração de todos os atributos de uma vez só: 
+                font-style, font-weight, font-size, fonta-family*/
+                font: italic bolder 3em  Arial , sans-sarif;
+        }
+        h2{
+            /* ShortHand, economizando linhas */
+            font: bold 2em Arial;
+
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa explicabo nam excepturi necessitatibus autem officia ipsam? Quasi voluptate aliquam autem vero voluptates atque nihil, impedit consectetur, reprehenderit culpa quos saepe. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus consequuntur, nisi iusto placeat quis distinctio eos accusamus totam voluptatem amet quidem non labore? Similique ratione ut enim dolorum ea! Cumque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis vero, harum quasi molestiae, voluptatem natus voluptate sit qui rem, ex tempore aliquid corporis illum doloremque fugit! Tenetur aliquid iste accusantium.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis similique officiis hic rem, consequuntur rerum corporis. Laboriosam sit dolor vel ad exercitationem, dolorem modi veritatis accusantium aspernatur alias officia reprehenderit!</p>
+    <h2>Subitulo do exercicio</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, inventore repellendus impedit atque velit expedita totam numquam nemo, qui accusantium sed minus eveniet adipisci, magni optio ipsum molestiae vero nobis!</p>
+</body>
+</html>
