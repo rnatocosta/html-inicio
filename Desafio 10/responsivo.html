@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsividade</title>
+    <style>
+        body{
+            background-color: gray;
+        }
+        main{
+            background-color: white;
+            padding: 20px; /* Espaçamento no texto */
+            border-radius: 10px;/* Borda da pagina branca */
+            min-width: 280px; /* Largura minima */
+            max-width: 800px; /* Largura máxima */
+            margin: auto;
+        }
+        img{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Testando Responsividade</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga at illo accusamus aliquid eos, repellendus eum, totam beatae quae impedit facilis facere voluptate temporibus earum dolorum et mollitia esse consequuntur. 
+            <picture><!-- Alcaçou o tal tamanho ele substitui -->
+                <source media="(max-width:600px)" srcset="imagens/irina-blok-pq.jpg"><img src="imagens/irina-blok.jpg" alt="Irina Criadora"></source>
+            </picture>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quas nemo ab eius asperiores? Molestias velit dolor quas aperiam, tempora laboriosam, illo quia quibusdam, magni distinctio pariatur? In, dolorem non? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa, inventore! Vitae iure nam esse ex fugit delectus, odit quam ab harum, eveniet ratione corporis reprehenderit! Ipsam a quod totam neque.</p>
+    </main>
+</body>
+</html>
